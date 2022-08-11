@@ -1,0 +1,7 @@
+{
+  "name": "Stackathon",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
