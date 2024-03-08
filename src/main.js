@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
+import BaseLayout from './components/base/BaseLayout.vue';
+import store from './store'
 
 import { IonicVue } from '@ionic/vue';
 
@@ -19,13 +21,20 @@ import '@ionic/vue/css/text-alignment.css';
 import '@ionic/vue/css/text-transformation.css';
 import '@ionic/vue/css/flex-utils.css';
 import '@ionic/vue/css/display.css';
+import 'swiper/css/bundle';
 
 /* Theme variables */
 import './theme/variables.css';
+import './theme/core.css';
+
+
 
 const app = createApp(App)
   .use(IonicVue)
-  .use(router);
+  .use(router)
+  .use(store);
+
+app.component('base-layout', BaseLayout)
   
 router.isReady().then(() => {
   app.mount('#app');

@@ -1,0 +1,11 @@
+{
+  "appId": "com.sherylapp6200.app",
+  "appName": "Stackathon",
+  "bundledWebRuntime": false,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

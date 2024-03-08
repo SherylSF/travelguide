@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Stackathon</string>
+    <string name="title_activity_main">Stackathon</string>
+    <string name="package_name">com.sherylapp6200.app</string>
+    <string name="custom_url_scheme">com.sherylapp6200.app</string>
+</resources>

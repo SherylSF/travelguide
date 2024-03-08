@@ -1,0 +1,17 @@
+ion-toolbar {
+    --background: var(--ion-color-primary);
+    --color: var(--ion-color-primary-contrast)
+
+}
+
+.ion-padding-start {
+    padding-left: 16px;
+}
+
+.subheader, .description{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+
